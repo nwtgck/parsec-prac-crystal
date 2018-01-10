@@ -1,0 +1,6 @@
+language: crystal
+
+script:
+  - shards build
+  # NOTE: THIS IS JUST FOR WORKING-TEST
+  - ./bin/parsec-prac
