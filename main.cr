@@ -27,7 +27,7 @@ def make_pasers1()
     # Number parser
     number_p : Parsec::Parser(Int32) =
         Parsec.many_1(Parsec.digit).map{|num_strs| num_strs.join.to_i}
-    # 3 Numbers tuple
+    # 3-number tuple parser
     three_numbers_p : Parsec::Parser(Tuple(Int32, Int32, Int32)) = 
         mdo({
             n1 <= number_p,
