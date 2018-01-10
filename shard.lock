@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  crystal-parsec:
+    github: dhruvrajvanshi/crystal-parsec
+    commit: edf34d995ab9c9bd4e5bbdfd19f3cbc017f417b0
+
+  crz:
+    git: https://github.com/dhruvrajvanshi/crz
+    version: 0.2.0
+

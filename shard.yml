@@ -1,0 +1,19 @@
+name: shards
+version: 0.1.0
+
+authors:
+  - Ryo Ota <nwtgck@gmail.com>
+
+description: |
+  Practice of Shards
+
+targets:
+  parsec-prac:
+    main: main.cr
+
+dependencies:
+  parsec:
+    github: nwtgck/crystal-parsec
+    branch: "master"
+
+license: MIT
