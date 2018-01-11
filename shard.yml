@@ -13,7 +13,7 @@ targets:
 
 dependencies:
   parsec:
-    github: nwtgck/crystal-parsec
-    branch: "master"
+    github: dhruvrajvanshi/crystal-parsec
+    commit: "00c6909e6ecdead3a7a3f1000494edc8b54adb19"
 
 license: MIT
